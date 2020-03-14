@@ -1,4 +1,4 @@
-name: xsv
+name: rustyxsv
 version: git
 summary: A fast CSV command line toolkit written in Rust
 description: |
@@ -16,10 +16,10 @@ confinement: devmode
 base: core18
 
 parts:
-  xsv:
+  rustyxsv:
     plugin: rust
     source: .
 
 apps:
-  xsv:
+  rustyxsv:
     command: bin/xsv
